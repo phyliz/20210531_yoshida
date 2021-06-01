@@ -174,6 +174,7 @@ export default {
         color: #333333;
         box-shadow: 80px 0 rgba(38, 98, 213, 0.3);
         z-index: 999;
+        
     }
     .menu-content .menu-title {
         margin: 40px 20px;
@@ -186,13 +187,13 @@ export default {
         color: #333333;
         margin: 15px;
         padding: 5px;
-        border-bottom: 0.5px solod #2662d5;
         text-decoration: none;
         display: block;
     }
     .menu-content li {
         width: 100%;
         text-align: left;
+        border-bottom: 0.5px solid #333333;
     }
     .menu-content.open {
         left: 0;

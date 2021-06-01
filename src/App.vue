@@ -423,6 +423,52 @@ body {
   margin: 0 0 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .service {
+    background: #e5e5e5;
+    margin-bottom: 10%;
+    height: 900px;
+  }
+
+  .service-title {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .service-content {
+    position: relative;
+    padding-bottom: 15%;
+  }
+
+  .service-img {
+    width: 50%;
+    margin-left: 50%;
+  }
+
+  .service-img_second {
+    margin: 20% 50% 0 0;
+  }
+
+  .service-content_inner {
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    background: #fff;
+    width: 60%;
+    padding: 5% 5%;
+    box-sizing: border-box;
+  }
+
+  .service-content_inner-second {
+    left: 37%;
+  }
+
+  .service-btn {
+    border: 1px solid #000;
+    margin: 0 0 0 auto;
+  }
+}
+
 /*------------------------*/
 /*---------recruit--------*/
 /*------------------------*/

@@ -2,8 +2,8 @@
     <footer class="top-footer">
     <div class="footer-bar">
         <div class="flex">
-        <h1 class="header-logo">estra inc.</h1>
-        <nav class="header-nav">
+        <h1 class="footer-logo">estra inc.</h1>
+        <nav class="footer-nav">
             <ul>
             <li><a href="#">home</a></li>
             <li><a href="#">about</a></li>
@@ -35,7 +35,7 @@
   color: #fff;
 }
 
-.header-logo {
+.footer-logo {
   font-size: 20px;
   font-weight: bold;
   margin-left: 35px;
@@ -43,13 +43,13 @@
   line-height: 70px;
 }
 
-.header-nav li {
+.footer-nav li {
   display: inline-block;
   margin-right: 35px;
   font-size: 16px;
 }
 
-.header-nav a {
+.footer-nav a {
   color: #fff;
 }
 </style>
